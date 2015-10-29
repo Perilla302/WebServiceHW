@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DatabaseViewController.h
 //  WebServiceHW
 //
 //  Created by Hongjin Su on 10/19/15.
@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyStructure.h"
 #import <sqlite3.h>
-@interface ViewController : UIViewController
+
+@interface DatabaseViewController : UIViewController
+
+@property (strong, nonatomic) MyStructure *objMyStructure;
 @property (strong, nonatomic) NSString * DatabasePath;
 @property (nonatomic) sqlite3 *ContactDB;
+@property (strong, nonatomic) NSMutableArray *array_Structure;
 
 @end
-

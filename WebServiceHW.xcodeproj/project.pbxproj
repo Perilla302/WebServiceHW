@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63339E01BD6856F00925474 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B63339DE1BD6856F00925474 /* libsqlite3.0.tbd */; };
+		B63339E11BD6856F00925474 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B63339DF1BD6856F00925474 /* libsqlite3.tbd */; };
+		B63339E41BD7385800925474 /* Pics2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63339E31BD7385800925474 /* Pics2ViewController.m */; };
+		B63339E71BD7409500925474 /* Web2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63339E61BD7409500925474 /* Web2ViewController.m */; };
 		B6A515F41BD54E81002D06E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A515F31BD54E81002D06E8 /* main.m */; };
 		B6A515F71BD54E81002D06E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A515F61BD54E81002D06E8 /* AppDelegate.m */; };
 		B6A515FA1BD54E81002D06E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A515F91BD54E81002D06E8 /* ViewController.m */; };
@@ -15,6 +19,11 @@
 		B6A516021BD54E81002D06E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A516001BD54E81002D06E8 /* LaunchScreen.storyboard */; };
 		B6A5160D1BD54E81002D06E8 /* WebServiceHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5160C1BD54E81002D06E8 /* WebServiceHWTests.m */; };
 		B6A516181BD54E81002D06E8 /* WebServiceHWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A516171BD54E81002D06E8 /* WebServiceHWUITests.m */; };
+		B6A516271BD55083002D06E8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A516261BD55083002D06E8 /* DetailViewController.m */; };
+		B6A5162A1BD550B4002D06E8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A516291BD550B4002D06E8 /* WebViewController.m */; };
+		B6A516301BD561CF002D06E8 /* MyStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5162F1BD561CF002D06E8 /* MyStructure.m */; };
+		B6A516331BD59C9D002D06E8 /* PicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A516321BD59C9D002D06E8 /* PicsViewController.m */; };
+		B6A516361BD59E35002D06E8 /* DatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A516351BD59E35002D06E8 /* DatabaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63339DE1BD6856F00925474 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B63339DF1BD6856F00925474 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B63339E21BD7385800925474 /* Pics2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pics2ViewController.h; sourceTree = "<group>"; };
+		B63339E31BD7385800925474 /* Pics2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pics2ViewController.m; sourceTree = "<group>"; };
+		B63339E51BD7409500925474 /* Web2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Web2ViewController.h; sourceTree = "<group>"; };
+		B63339E61BD7409500925474 /* Web2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Web2ViewController.m; sourceTree = "<group>"; };
 		B6A515EF1BD54E81002D06E8 /* WebServiceHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServiceHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A515F31BD54E81002D06E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6A515F51BD54E81002D06E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,16 @@
 		B6A516131BD54E81002D06E8 /* WebServiceHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebServiceHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A516171BD54E81002D06E8 /* WebServiceHWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServiceHWUITests.m; sourceTree = "<group>"; };
 		B6A516191BD54E81002D06E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A516251BD55082002D06E8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B6A516261BD55083002D06E8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B6A516281BD550B4002D06E8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B6A516291BD550B4002D06E8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B6A5162E1BD561CF002D06E8 /* MyStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStructure.h; sourceTree = "<group>"; };
+		B6A5162F1BD561CF002D06E8 /* MyStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStructure.m; sourceTree = "<group>"; };
+		B6A516311BD59C9D002D06E8 /* PicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicsViewController.h; sourceTree = "<group>"; };
+		B6A516321BD59C9D002D06E8 /* PicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicsViewController.m; sourceTree = "<group>"; };
+		B6A516341BD59E35002D06E8 /* DatabaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseViewController.h; path = ../DatabaseViewController.h; sourceTree = "<group>"; };
+		B6A516351BD59E35002D06E8 /* DatabaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseViewController.m; path = ../DatabaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63339E01BD6856F00925474 /* libsqlite3.0.tbd in Frameworks */,
+				B63339E11BD6856F00925474 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 		B6A515E61BD54E81002D06E8 = {
 			isa = PBXGroup;
 			children = (
+				B63339DE1BD6856F00925474 /* libsqlite3.0.tbd */,
+				B63339DF1BD6856F00925474 /* libsqlite3.tbd */,
 				B6A515F11BD54E81002D06E8 /* WebServiceHW */,
 				B6A5160B1BD54E81002D06E8 /* WebServiceHWTests */,
 				B6A516161BD54E81002D06E8 /* WebServiceHWUITests */,
@@ -105,9 +134,23 @@
 				B6A515F61BD54E81002D06E8 /* AppDelegate.m */,
 				B6A515F81BD54E81002D06E8 /* ViewController.h */,
 				B6A515F91BD54E81002D06E8 /* ViewController.m */,
+				B6A516251BD55082002D06E8 /* DetailViewController.h */,
+				B6A516261BD55083002D06E8 /* DetailViewController.m */,
+				B6A516281BD550B4002D06E8 /* WebViewController.h */,
+				B6A516291BD550B4002D06E8 /* WebViewController.m */,
+				B6A516311BD59C9D002D06E8 /* PicsViewController.h */,
+				B6A516321BD59C9D002D06E8 /* PicsViewController.m */,
+				B6A516341BD59E35002D06E8 /* DatabaseViewController.h */,
+				B6A516351BD59E35002D06E8 /* DatabaseViewController.m */,
 				B6A515FB1BD54E81002D06E8 /* Main.storyboard */,
+				B63339E21BD7385800925474 /* Pics2ViewController.h */,
+				B63339E31BD7385800925474 /* Pics2ViewController.m */,
+				B63339E51BD7409500925474 /* Web2ViewController.h */,
+				B63339E61BD7409500925474 /* Web2ViewController.m */,
 				B6A515FE1BD54E81002D06E8 /* Assets.xcassets */,
 				B6A516001BD54E81002D06E8 /* LaunchScreen.storyboard */,
+				B6A5162E1BD561CF002D06E8 /* MyStructure.h */,
+				B6A5162F1BD561CF002D06E8 /* MyStructure.m */,
 				B6A516031BD54E81002D06E8 /* Info.plist */,
 				B6A515F21BD54E81002D06E8 /* Supporting Files */,
 			);
@@ -207,6 +250,7 @@
 				TargetAttributes = {
 					B6A515EE1BD54E81002D06E8 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7K8MG5DQM6;
 					};
 					B6A516071BD54E81002D06E8 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -271,8 +315,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6A515FA1BD54E81002D06E8 /* ViewController.m in Sources */,
+				B6A5162A1BD550B4002D06E8 /* WebViewController.m in Sources */,
 				B6A515F71BD54E81002D06E8 /* AppDelegate.m in Sources */,
+				B63339E41BD7385800925474 /* Pics2ViewController.m in Sources */,
+				B63339E71BD7409500925474 /* Web2ViewController.m in Sources */,
 				B6A515F41BD54E81002D06E8 /* main.m in Sources */,
+				B6A516271BD55083002D06E8 /* DetailViewController.m in Sources */,
+				B6A516331BD59C9D002D06E8 /* PicsViewController.m in Sources */,
+				B6A516301BD561CF002D06E8 /* MyStructure.m in Sources */,
+				B6A516361BD59E35002D06E8 /* DatabaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +464,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WebServiceHW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.WebServiceHW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WebServiceHW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Hongjin-Su.WebServiceHW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +555,7 @@
 				B6A5161E1BD54E81002D06E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6A5161F1BD54E81002D06E8 /* Build configuration list for PBXNativeTarget "WebServiceHWTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +564,7 @@
 				B6A516211BD54E81002D06E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6A516221BD54E81002D06E8 /* Build configuration list for PBXNativeTarget "WebServiceHWUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +573,7 @@
 				B6A516241BD54E81002D06E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
